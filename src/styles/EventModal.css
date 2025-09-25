@@ -1,0 +1,53 @@
+.event-modal-overlay {
+  position: fixed;
+  inset: 0; /* займає весь екран */
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.event-modal-content {
+  position: absolute;
+  background: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+  
+  .event-modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .event-modal-close {
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .event-modal-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .event-modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event-modal-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-modal-buttons button:hover {
+    opacity: 0.8;
+  }
+  

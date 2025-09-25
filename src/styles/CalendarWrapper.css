@@ -1,0 +1,21 @@
+.rbc-current-time-indicator {
+  background-color: pink;
+  height: 2px !important;
+  border-radius: 2px;
+  z-index: 999;
+}
+
+.rbc-current-time-indicator::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -2px;
+  width: 8px;
+  height: 8px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.rbc-today {
+  background-color: #fff8e1;
+}
